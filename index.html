@@ -6,7 +6,7 @@
     <style>
       /* HTML STYLES */
       html {
-        background: FFF
+        background: #FFF
         }
       /* GLOBAL STYLES */
         a {
@@ -15,17 +15,28 @@
         div.bio-box {
           border: 1px solid #0F0;
         }
+        h2 {
+          font-size: 30px;
+        }
       /* SOCIAL STYLES */
         .social-link {
           background: rgba(150, 150, 150, .5);
           color: rgba(#00F; #00F, #00F, .2);
         }
       /* BIO STYLES */
-        .bio-box {
+      .bio-wrapper {
+        font-size: 24px;
+      }
+      .bio-box {
             border: 1px solid black;
+            width: 50%;
+            margin: 10%;
+            font-size: 48px;
+            padding: 20px;
         }
         .bio-copy a {
             color: #087;
+            font-size: 1em;
         }
     </style>
   </head>
@@ -45,6 +56,7 @@
     </ul>
 
     <h2>I'm an h2</h2>
+    <div class="bio-wrapper">
     <div class="bio-box">
       <h3>Michael Hartl</h3>
       <a href="https://twitter.com/mhartl" class="social-link">here</a>
@@ -94,5 +106,6 @@
         The Future
       </p>
     </div>
+  </div>
   </body>
 </html>
